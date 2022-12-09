@@ -14,7 +14,7 @@ public class KafkaProducer {
     public String send(@RequestParam String msg){
         kafkaTemplate.send("springboottom", msg);
 
-        return "ok ";
+        return " ok ";
     }
 
 }
